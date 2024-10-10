@@ -1,0 +1,62 @@
+:root {
+    /* Light Theme */
+    --bodyColor: #EFF0F0;
+    --principalColor: #FFFFFF;
+    --secondColor: #141414;
+    --sectionColor: #F7F7F7;
+    --pointColor: #CCCCCC;
+    --textColor: #666666;
+}
+
+body {
+    background-color: var(--bodyColor);
+    margin: 0 auto;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+}
+
+
+/* header */
+.header {
+    background-color: var(--principalColor);
+    margin: 8px 8px;
+    border-radius: 10px;
+    box-shadow: 0px 1px 10px var(--pointColor);
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    align-items: center;
+}
+
+.navigation__listMenu {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+}
+
+.navigation__listMenu__item {
+    border-radius: 30rem;
+    background-color: #CCCCCC;
+    padding: 0.4rem;
+}
+
+.navigation__listMenu img {
+    width: 20px;
+    height: 20px;
+}
+
+.navigation__button__hireMe{
+    background-color: var(--secondColor);
+    color: var(--principalColor);
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 0.8rem;
+}
